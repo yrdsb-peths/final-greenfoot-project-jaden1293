@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class frog here.
+ * Whom you will be controlling, he will eat all the bugs
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Jaden Lee) 
+ * @version (23-12-18)
  */
 public class frog extends Actor
 {
@@ -15,5 +15,6 @@ public class frog extends Actor
     public void act()
     {
         // Add your action code here.
+        
     }
 }
