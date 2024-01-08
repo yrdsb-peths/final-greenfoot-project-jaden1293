@@ -54,6 +54,7 @@ public class Player extends Actor
         if(getY() == 399)
         {
             getWorld().addObject(new YouWin(), 400, 300);
+            Greenfoot.stop();
         }
         
     }
