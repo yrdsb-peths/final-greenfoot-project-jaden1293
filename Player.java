@@ -17,8 +17,8 @@ public class Player extends Actor
     {
         // Add your action code here.
         moveAround();
-        hitEnemy();
         youWin();
+        hitEnemy();
     }
     public void moveAround()
     {
@@ -45,16 +45,19 @@ public class Player extends Actor
         if (isTouching(Babysitter.class))
         {
             getWorld().addObject(new YouLose(), 300, 200);
-            getWorld().removeObject(this);
             Greenfoot.stop();
+  
+            
+            
         }
     }
     public void youWin()
     {
         if(getY() == 399)
         {
-            getWorld().addObject(new YouWin(), 400, 300);
+            getWorld().addObject(new YouWin(), 300, 200);
             Greenfoot.stop();
+            
         }
         
     }

@@ -37,8 +37,6 @@ public class MyWorld extends World
         addObject(babysitter9,429,180);
         Babysitter babysitter10 = new Babysitter();
         addObject(babysitter10,435,312);
-        Babysitter babysitter11 = new Babysitter();
-        addObject(babysitter11,548,123);
         Babysitter babysitter13 = new Babysitter();
         addObject(babysitter13,554,356);
 
