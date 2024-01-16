@@ -18,8 +18,14 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
-        //starts game
-        startGame();
+        //starts gameaddObject(new StartGame(), 300, 200);
+        addObject(new StartGame(), 300, 200);
+        if (Greenfoot.isKeyDown("space"))
+        {
+            removeObject(StartGame());
+            startGame();
+        }
+        
     }
 
     private void startGame()
